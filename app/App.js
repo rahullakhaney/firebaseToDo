@@ -2,13 +2,17 @@ import React, { Component } from 'react'
 import {
   View,
   Text,
-  Stylesheet
+  StyleSheet
 } from 'react-native'
+
+import ViewContainer from './components/ViewContainer'
 
 export default class App extends Component {
     render() {
       return (
-          <Text>HelloWorld</Text>
+          <ViewContainer>
+
+          </ViewContainer>
       )
     }
 }
