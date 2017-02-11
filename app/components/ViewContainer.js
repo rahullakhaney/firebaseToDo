@@ -9,7 +9,7 @@ export default class ViewContainer extends Component {
     render() {
       return (
           <View style={styles.ViewContainer}>
-
+            {this.props.children}
           </View>
       )
     }
